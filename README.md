@@ -1,4 +1,4 @@
-# LLD Practice Platform Engine (MVP Prototype)
+# LLD Practice Platform Engine
 
 An extensible, domain-driven Low-Level Design (LLD) practice engine built with FastAPI. It prioritizes the **learner refactoring loop** over generic LMS features by providing non-blocking execution, multi-dimensional rubric feedback, and immutable versioned submission tracking.
 
