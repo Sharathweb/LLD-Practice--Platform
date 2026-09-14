@@ -27,16 +27,20 @@ source venv/bin/activate
 # Install required dependencies (including httpx for TestClient)
 pip install fastapi uvicorn pydantic pytest requests httpx
 
+```
+
 ### 3. Run Automated Tests
 Verify domain models, evaluation strategies, and state transitions:
 ```bash
 cd python -m pytest test_domain.py -v
+```
 
 ### 4. Start Local Development Server
 Launch the live FastAPI application:
 ```bash
 uvicorn main:app --reload
 Interactive API Docs (Swagger UI): http://127.0.0.1:8000/docs
+```
 
 ## How to Run & Verify the Learner Refactoring Loop
 Follow this sequence in Swagger UI (http://127.0.0.1:8000/docs):
@@ -94,4 +98,4 @@ Meaningful AI Contributions
 3. Troubleshooting & Debugging:
 
     Identified and provided resolutions for environment issues during setup (such as missing httpx dependencies for fastapi.testclient and path formatting for Windows PowerShell).
-    
+
