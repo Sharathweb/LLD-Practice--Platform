@@ -81,7 +81,7 @@ Monolithic Background Processing: Uses internal background tasks instead of dedi
 
 ## AI Usage & Disclosure Log
 
-# Overview & Purpose
+### Overview & Purpose
 AI tooling (LLMs) was leveraged during the development of this LLD Practice Platform MVP to assist with rapid prototyping, architectural refinement, unit test generation, and debugging setup issues.
 
 Meaningful AI Contributions
